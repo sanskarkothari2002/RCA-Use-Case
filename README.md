@@ -11,6 +11,8 @@ It helps identify issues, summarize key findings, and provide quick insights for
 # Usage
 
  - Use collect_logs.py to prepare the error log
+   Run collect_logs.py to extract errors:
+       python collect_logs.py  
  - Open the chatbot app to:
    1) Ask questions about the errors
    2) Or even chat with the bot for general queries
