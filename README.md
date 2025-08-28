@@ -8,10 +8,15 @@ It helps identify issues, summarize key findings, and provide quick insights for
  2) streamlit_main.py → Streamlit chatbot app where you can upload collected_errors.txt and chat with the bot.
 
 
-# Usage
+# Getting Started
 
- - Run collect_logs.py to extract errors:
-       # python collect_logs.py
- - Open the chatbot app to:
-   1) Ask questions about the errors
-   2) Or even chat with the bot for general queries
+1. Clone this repo and install dependencies:
+   
+3. Collect logs:
+    
+    Command - python collect_logs.py  
+   → Produces error_log.txt  
+
+5. Start the chatbot:
+   
+    Command - streamlit run streamlit_main.py 
